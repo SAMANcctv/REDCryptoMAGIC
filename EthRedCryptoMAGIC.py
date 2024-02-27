@@ -10,16 +10,16 @@ from rich import print
 
 def Main():
     p = optparse.OptionParser()
-    p.add_option('-f', '--file', dest="filenameEth",
+    p.add_option('-f', '--file', dest="file:///storage/00F2-0A06/Android/data/com.android.chrome/files/Download/eth5.txt",
                  help="Ethereum Rich Address File With Type Format .TXT [Example: -f eth5.txt] ")
     p.add_option('-v', '--view', dest="ViewPrint", help="Print After Generated This Number Print And Report")
     p.add_option('-n','--thread', dest="ThreadCount", help="Total Thread Number (Total Core CPU)")
     (options, args) = p.parse_args()
-    filename = options.filenameEth
+    file:///storage/00F2-0A06/Android/data/com.android.chrome/files/Download/eth5.txt = options.file:///storage/00F2-0A06/Android/data/com.android.chrome/files/Download/eth5.txt
     logpx = options.ViewPrint
     thco = options.ThreadCount
     # ----------------------- START ------------------------------ #
-    with open(filename) as f:
+    with open(file:///storage/00F2-0A06/Android/data/com.android.chrome/files/Download/eth5.txt) as f:
         add = f.read().split()
     add = set(add)
     z = 0
